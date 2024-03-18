@@ -97,6 +97,7 @@
 }
 
 .post-cards {
+    margin: 3rem 0;
     
 
 }
@@ -112,8 +113,9 @@
     width: 40%;
     background-color: rgb(195, 255, 127);
     min-height: 20rem;
-
-
-    
 }
 
+.secondary-cards-block {
+    background-color: blue;
+    min-height: 35rem;
+}
