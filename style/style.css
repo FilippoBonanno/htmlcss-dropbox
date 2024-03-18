@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.block-header {
+    justify-content: space-between;
+    padding: 1.5rem;
+    border: 1px solid black ;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    z-index: 999;
+}
+
+.left-header > div, .right-header > div {
+    padding: 0 2.5rem;
+}
+
+.main-block{
+    margin-top: 4rem;
+    
+}
+
+.container-1-block {
+    background-color: rgb(75, 212, 212);
+    flex-wrap: wrap; 
+}
+
+.block-title {
+    font-size: 4em;
+    margin: 2rem 0;
+}
+
+.first-block {
+    width: 1400px;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+    
+}
+
+.left-sub-title {
+    background-color: darkcyan;
+    width: 40%;
+    min-height: 10rem;
+
+}
+
+.right-sub-title {
+    background-color: burlywood;
+    width: 60%;
+    min-height: 10rem;
+}
+
+.container-2-block {
+    margin-top: 4rem;
+
+}
+
+.second-block {
+    width: 1200px;
+    background-color: chartreuse;
+}
+
+.cards-block {
+    flex-wrap: wrap;
+
+}
+
+.card {
+    width: calc(100% / 3 - 3rem);
+    margin: 1rem auto;
+    background-color: antiquewhite;
+    min-height: 25rem;
+}
+
+.block-sub-cards {
+    background-color: yellow;
+    margin-top: 2rem;
+    border: 1px solid black;
+    min-height: 10rem;
+    
+}
+
+.block-sub-cards div:first-child {
+    border-bottom: 1px solid black;
+}
+
+.post-cards {
+    
+
+}
+
+.post-left {
+    width: 60%;
+    background-color: aquamarine;
+    min-height: 20rem;
+
+}
+
+.post-right {
+    width: 40%;
+    background-color: rgb(195, 255, 127);
+    min-height: 20rem;
+
+
+    
+}
+
