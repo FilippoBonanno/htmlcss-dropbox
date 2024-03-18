@@ -181,7 +181,34 @@
     background-color: #fff;
     width: 60%;
     min-height: 20rem;
+}
 
+.faq-box {
+    background-color: cadetblue;
+    min-height: 30rem;
+    flex-wrap: wrap;
+    width: 1200px;
+}
 
+.title-faq {
+    width: 100%;
+    border-bottom: 1px solid black;
 
+}
+
+.container-footer {
+    background-color: rgb(26, 24, 24);
+}
+
+.footer-box {
+    width: 1400px;
+    
+}
+
+.title-footer {
+    width: calc(100% / 5 - 4rem);
+    min-height: 30rem;
+    margin-top: 2rem;
+    border: 1px solid white;
+    
 }
