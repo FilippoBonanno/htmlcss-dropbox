@@ -64,7 +64,6 @@ a {
 }
 
 .left-sub-title {
-    background-color: darkcyan;
     width: 40%;
     min-height: 20rem;
     padding: 1rem;
@@ -81,7 +80,6 @@ a {
 }
 
 .right-sub-title {
-    background-color: burlywood;
     width: 60%;
     min-height: 20rem;
 }
@@ -130,10 +128,9 @@ ul {
 }
 
 .block-sub-cards {
-    background-color: yellow;
     margin-top: 2rem;
-    border: 1px solid black;
     min-height: 10rem;
+    border: 1px solid black;
     
 }
 
@@ -148,7 +145,6 @@ ul {
 
 .left-sub-cards {
     width: 70%;
-    border-right: 1px solid black;
     text-align: start;
 
 }
@@ -161,19 +157,15 @@ ul {
 
 .post-cards {
     margin: 3rem 0;
-    
-
 }
 
 .post-left {
     width: 60%;
-    background-color: aquamarine;
     min-height: 20rem;
 }
 
 .post-right {
     width: 40%;
-    background-color: rgb(195, 255, 127);
     min-height: 30rem;
     padding: 1rem;
 }
@@ -183,14 +175,12 @@ ul {
 }
 
 .secondary-cards-block {
-    background-color: rgb(84, 84, 218);
     min-height: 35rem;
     flex-wrap: wrap;
 }
 
 .secondary-cards {
     width: calc(100% / 3 - 2rem);
-    background-color: rgb(162, 118, 204);
     margin: 2rem auto;
     min-height: 15rem;
 }
@@ -307,7 +297,6 @@ ul {
 }
 
 .faq-box {
-    background-color: cadetblue;
     min-height: 30rem;
     flex-wrap: wrap;
     width: 1200px;
