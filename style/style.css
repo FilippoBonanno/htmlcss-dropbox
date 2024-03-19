@@ -27,7 +27,7 @@
     padding: 0 2.5rem;
 }
 
-.right-header div:nth-child(4){
+div a {
     background-color: rgb(7, 151, 241);
     padding: 0.5rem 1rem;
 
@@ -39,6 +39,8 @@ a {
 }
 
 /* FINE HEADER */
+
+/* INIZIO MAIN */
 .main-block{
     margin-top: 4rem;
     
@@ -64,15 +66,28 @@ a {
 .left-sub-title {
     background-color: darkcyan;
     width: 40%;
-    min-height: 10rem;
+    min-height: 20rem;
+    padding: 1rem;
     
+}
 
+.left-sub-title > p, div {
+    margin-bottom: 2rem;
+}
+
+.fa-arrow-down {
+    font-size: 3rem;   
+    margin-top: 6.5rem;
 }
 
 .right-sub-title {
     background-color: burlywood;
     width: 60%;
-    min-height: 10rem;
+    min-height: 20rem;
+}
+
+div img {
+    width: 100%;
 }
 
 .container-2-block {
@@ -95,6 +110,13 @@ a {
     margin: 1rem auto;
     background-color: antiquewhite;
     min-height: 25rem;
+    border: 1px solid black;
+}
+
+.card div:first-child{
+    text-align: center;
+    padding: 0.5rem;
+    border-bottom: 1px solid black;
 }
 
 .block-sub-cards {
