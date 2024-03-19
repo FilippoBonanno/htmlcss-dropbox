@@ -95,6 +95,17 @@ div img {
 
 }
 
+ul {
+    list-style-type: none;
+}
+
+.link-line {
+    text-decoration: underline;
+    color: rgb(7, 151, 241);
+    background-color: #ffffff00;
+
+}
+
 .second-block {
     width: 1200px;
     background-color: chartreuse;
