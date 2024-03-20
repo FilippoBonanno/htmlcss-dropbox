@@ -14,7 +14,6 @@
 .block-header {
     justify-content: space-between;
     padding: 1.5rem;
-    border: 1px solid black ;
     position: fixed;
     top: 0;
     left: 0;
@@ -24,13 +23,13 @@
 }
 
 .left-header > div, .right-header > div {
-    padding: 0 2.5rem;
+    padding: 0.5rem 2.5rem;
+    
 }
 
 div a {
     background-color: rgb(7, 151, 241);
     padding: 0.5rem 1rem;
-
 }
 
 a {
@@ -38,13 +37,15 @@ a {
     color: #fff;
 }
 
+
+.left-header div:nth-child(2):hover {
+    border-bottom: 1px solid black;
+
+}
+
 /* FINE HEADER */
 
 /* INIZIO MAIN */
-.main-block{
-    margin-top: 4rem;
-    
-}
 
 .container-1-block {
     background-color: rgb(75, 212, 212);
@@ -59,29 +60,38 @@ a {
 .first-block {
     width: 1400px;
     flex-wrap: wrap;
-    margin-top: 3rem;
-    
+    margin-top: 8rem;
+    align-items: flex-end;
 }
 
 .left-sub-title {
-    width: 40%;
-    min-height: 20rem;
-    padding: 1rem;
-    
+    width: 40%;  
+    height: 25rem;
 }
 
-.left-sub-title > p, .left-sub-title > div {
+.left-sub-title > p  {
+    margin-bottom: 2rem;
+}
+
+.first-bottom {
+    display: inline-block;
     margin-bottom: 2rem;
 }
 
 .fa-arrow-down {
     font-size: 3rem;   
-    margin-top: 6.5rem;
+    margin-top: 4rem;
+}
+
+.arrow-link {
+    background-color: #ffffff00;
+    color: black;
+
 }
 
 .right-sub-title {
     width: 60%;
-    min-height: 20rem;
+    height: 25rem;
 }
 
 div img {
@@ -89,12 +99,27 @@ div img {
 }
 
 .container-2-block {
-    margin-top: 4rem;
+    margin-top: 8rem;
+}
 
+.title-2-block {
+    font-size: 2em;
+    margin-bottom: 2rem
+
+}
+
+.selezione {
+    margin-bottom: 1rem;
+
+}
+
+label {
+    margin-right: 2rem;
 }
 
 ul {
     list-style-type: none;
+
 }
 
 .link-line {
@@ -109,15 +134,36 @@ ul {
 }
 
 .cards-block {
-    flex-wrap: wrap;
+    gap: 4.5rem;
 
 }
 
+.card-content-padding {
+    padding: 1rem;
+}
+
+#cards-linee {
+    margin-left: 0;
+    margin-top: 2rem;
+
+}
+.card-content-padding * {
+    margin-top: 0.5rem;
+    
+}
+
+
+.link-abbonament {
+    margin-bottom: 2rem;
+    display: block;
+    text-align: center;
+}
+
+
 .card {
     width: calc(100% / 3 - 3rem);
-    margin: 1rem auto;
-    background-color: antiquewhite;
-    min-height: 40rem;
+    margin: 1rem 0;
+    min-height: 50rem;
     border: 1px solid black;
 }
 
@@ -140,8 +186,6 @@ ul {
     padding: 0.5rem;
     
 }
-
-
 
 .left-sub-cards {
     width: 70%;
@@ -177,16 +221,18 @@ ul {
 .secondary-cards-block {
     min-height: 35rem;
     flex-wrap: wrap;
+    justify-content: space-between;
+    
 }
 
 .secondary-cards {
     width: calc(100% / 3 - 2rem);
-    margin: 2rem auto;
+    margin: 2rem 0;
     min-height: 15rem;
 }
 .secondary-cards * {
     margin-bottom: 0.5rem;
-    padding: 1rem;
+    
 }
 
  .img-secondary-cards > img {
@@ -195,7 +241,6 @@ ul {
 
 .title-colorbox {
     min-height: 15rem;
-    padding: 1rem;
     margin-top: 3rem;
 }
 
@@ -206,9 +251,15 @@ ul {
 
 .color-box-left div:first-child {
     background-color: rgb(93, 245, 194);
+    animation-duration: 1s;
+       
+}
+
+.color-box-left div:first-child:hover {
     border: 20px solid rgb(181, 238, 219);
        
 }
+
 .color-box-left div:nth-child(2) {
     background-color: brown;
 
@@ -308,6 +359,10 @@ ul {
 
 }
 
+.title-faq > h4 {
+    line-height: 2rem;
+}
+
 .title-faq > ul {
     display: none;
 }
@@ -321,6 +376,7 @@ ul {
 
 .footer-box {
     width: 1400px;
+    gap: 1rem;
     
 }
 
