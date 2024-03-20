@@ -46,6 +46,8 @@ a {
 
 /* INIZIO MAIN */
 
+/* <!-- FIRST-BLOCK INIZIO--> */
+
 .container-1-block {
     background-color: rgb(75, 212, 212);
     flex-wrap: wrap; 
@@ -85,7 +87,6 @@ a {
 .arrow-link {
     background-color: #ffffff00;
     color: black;
-
 }
 
 .right-sub-title {
@@ -96,7 +97,9 @@ a {
 div img {
     width: 100%;
 }
+/* <!-- FIRST-BLOCK FINE--> */
 
+/* <!-- BLOCCO-SELETTORI INIZIO--> */
 .container-2-block {
     margin-top: 8rem;
 }
@@ -104,21 +107,20 @@ div img {
 .title-2-block {
     font-size: 2em;
     margin-bottom: 2rem
-
 }
 
 .selezione {
     margin-bottom: 1rem;
-
 }
 
 label {
     margin-right: 2rem;
 }
+/* <!-- BLOCCO-SELETTORI FINE--> */
 
+/* <!-- BLOCCO-CARDS INIZIO --> */
 ul {
     list-style-type: none;
-
 }
 
 .link-line {
@@ -171,7 +173,9 @@ ul {
     padding: 0.5rem;
     border-bottom: 1px solid black;
 }
+/* <!-- BLOCCO-CARDS FINE --> */
 
+/* <!-- BLOCCO-SUB-CARDS INIZIO --> */
 .block-sub-cards {
     margin-top: 2rem;
     min-height: 10rem;
@@ -202,8 +206,9 @@ ul {
     padding: 1.5rem;
     margin-bottom: 4.5rem;
 }
+/* <!-- BLOCCO-SUB-CARDS FINE --> */
 
-
+/* <!-- BLOCCO IMG E TEXT SUB-CARDS INIZIO --> */
 .post-cards {
     margin: 3rem 0;
     align-items: flex-start;
@@ -232,7 +237,9 @@ ul {
     margin: 0.5;
     display: inline-block;
 }
+/* <!-- BLOCCO IMG E TEXT SUB-CARDS FINE --> */
 
+/* <!-- BLOCCO-SECOND CARDS INIZIO --> */
 .title-secondary-cards {
     font-size: 3em;
 }
@@ -257,7 +264,9 @@ ul {
 .img-secondary-cards > img {
     width: 100%;
  }
+/* <!-- BLOCCO-SECOND CARDS FINE --> */
 
+/* <!-- BLOCCO TITLE COLOR BOX INIZIO --> */
 .title-colorbox {
     min-height: 15rem;
     margin-top: 3rem;
@@ -320,6 +329,11 @@ ul {
     filter: invert(100%) opacity(1);
 }
 
+.box-adw {
+    width: calc(100% / 2);
+    min-height: 20rem;
+}
+
 .color-box-container > div {
     width: calc(100% / 3 );
     min-height: 40rem;
@@ -344,21 +358,16 @@ ul {
 
 .color-box-left, .color-box-right {
     flex-wrap: wrap;
-
 }
+/* <!-- BLOCCO TITLE COLOR BOX FINE --> */
 
-.box-adw {
-    width: calc(100% / 2);
-    min-height: 20rem;
-}
-
+/* <!-- BLOCCO SUB COLOR BOX INIZIO --> */
 .sub-color-container {
     background-color: rgb(139, 209, 226);
 }
 
 .sub-color-box {
-    width: 1200px;
-    
+    width: 1200px;   
 }
 
 .sub-color-box-content-left {
@@ -366,7 +375,6 @@ ul {
     min-height: 20rem;
     font-size: 2.5em;
     color: rgb(146, 39, 39);
-
 }
 
 .sub-color-box-content-right {
@@ -379,7 +387,9 @@ ul {
     background-color: #fff;
     padding: 1rem 2.5rem;
 }
+/* <!-- BLOCCO SUB COLOR BOX FINE --> */
 
+/* <!-- BLOCCO FAQ INIZIO --> */
 .faq-box {
     min-height: 30rem;
     flex-wrap: wrap;
@@ -395,8 +405,7 @@ ul {
     line-height: 2rem;
     font-size: 1.8em;
     margin-top: 6rem;
-    margin-bottom: 2rem;
-    
+    margin-bottom: 2rem;   
 }
 .title-faq > h4 {
     line-height: 2rem;
@@ -405,8 +414,7 @@ ul {
 
 h4 .fa-chevron-down {
     position: relative;
-    left: 16rem;
-    
+    left: 16rem; 
 }
 
 .title-faq > ul {
@@ -420,6 +428,9 @@ h4 .fa-chevron-down {
 .title-faq > h4:hover + ul {
     display: block;
 }
+/* <!-- BLOCCO FAQ FINE --> */
+
+/* <!-- INIZIO FOOTER --> */
 .container-footer {
     background-color: rgb(26, 24, 24);
 }
@@ -464,3 +475,4 @@ h4 .fa-chevron-down {
 .fa-caret-up {
     margin-left: 0.5rem;
 }
+/* <!-- FINE FOOTER --> */
