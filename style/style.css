@@ -37,11 +37,13 @@ a {
 }
 
 
-.left-header div:nth-child(2):hover {
+.left-header div:nth-child(n+2):hover {
     border-bottom: 1px solid black;
-
 }
 
+.right-header div:nth-child(-n+3):hover {
+    border-bottom: 1px solid black;
+}
 /* FINE HEADER */
 
 /* INIZIO MAIN */
